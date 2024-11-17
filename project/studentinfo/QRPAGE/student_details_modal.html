@@ -1,0 +1,68 @@
+<button type="button" class="btn btn-primary d-none" data-bs-toggle="modal"  id='invoke_modal'data-bs-target="#student_report">
+  student
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="student_report" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">STUDENT INFO</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id='std_modal_close'></button>
+      </div>
+      <div class="modal-body">
+          <div class='card'>
+              <div calss='card-body'>
+                  <table class='table w-100 table-stripped table-info' id="tb1">
+                      <tbody>
+                          <tr>
+                              <td >ID NUMBER</td>
+                              <td  id='ID_NUMBER' class='bg-warning-subtle'></td>
+                          </tr>
+                         
+                          <tr>
+                              <td >NAME</td>
+                              <td id='SNAME'class='bg-warning-subtle'></td>
+                          </tr>
+                         
+                          <tr>
+                              <td >GENDER</td>
+                              <td id='GENDER'class='bg-warning-subtle'></td>
+                          </tr>
+                         
+                          <tr>
+                              <td >YEAR</td>
+                              <td id='YEAR'class='bg-warning-subtle'></td>
+                          </tr>
+                         
+                          <tr>
+                              <td >BRANCH</td>
+                              <td id='BRANCH'class='bg-warning-subtle'></td>
+                          </tr>
+                          <tr>
+                              <td cla>SECTION</td>
+                              <td id='SECTION'class='bg-warning-subtle'></td>
+                          </tr>
+                         
+                          <tr>
+                              <td cla>LAST OUT</td>
+                              <td id='last_out'class='bg-warning-subtle'></td>
+                          </tr>
+                         
+                          <tr>
+                              <td >LAST IN</td>
+                              <td id='last_in' class='bg-warning-subtle'></td>
+                          </tr>
+
+                      </tbody>
+                  </table>
+              </div>
+             </div>
+      </div>
+      <div class="modal-footer justify-content-between">
+        <button type="button" class="btn  bg-success bg-gradient shadow px-5 py-2" id='admit_in'>IN</button>
+        <button type="button" class="btn  bg-danger bg-gradient shadow px-5 py-2" id='approve_out'>OUT</button>
+      </div>
+    </div>
+  </div>
+</div>
